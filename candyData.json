@@ -1,0 +1,303 @@
+[
+    {
+           "id": 1,
+           "name": "Cakes",
+           "description": "Celebrate this season with our world-famous Matzo Crunch or Macaroon Assortments.",
+           "img": "./img/desserts/036608a2d2d0afa6ca0ab30f2a6f2964.jpg",
+           "price": "380 EG",
+           "category":"arabic"
+       },
+       {
+           "id": 2,
+           "name": "Cakes Walk",
+           "description": "Celebrate this season with our world-famous Matzo Crunch or Macaroon Assortments.",
+           "img": "./img/desserts/0dd45cffae404a48761b48dcf03a6274.jpg",
+           "price": "300 EG",
+           "category":"arabic"
+
+       },
+       {
+           "id": 3,
+           "name": "Cup Cakes",
+           "description": "Celebrate this season with our world-famous Matzo Crunch or Macaroon Assortments.",
+           "img": "./img/desserts/1fbb6fd803dac1cf572d6634afbc648f.jpg",
+           "price": "250 EG",
+           "category":"arabic"
+
+       },
+       {
+           "id": 4,
+           "name": "Sugar Cake",
+           "description": "Celebrate this season with our world-famous Matzo Crunch or Macaroon Assortments.",
+           "img": "./img/desserts/25eb7abc1301b58d8b69976f22ef1ab3.jpg",
+           "price": "150 EG",
+           "category":"arabic"
+
+       },
+       {
+           "id": 5,
+           "name": "Chocolate Cake",
+           "description": "Celebrate this season with our world-famous Matzo Crunch or Macaroon Assortments.",
+           "img": "./img/desserts/4108def847222ded646501888f8ef988.jpg",
+           "price": "400 EG",
+           "category":"arabic"
+
+       },
+       {
+           "id": 6,
+           "name": "Halva",
+           "description": "Celebrate this season with our world-famous Matzo Crunch or Macaroon Assortments.",
+           "img": "./img/desserts/4d392ba0e62c980fc7bb16c8af1448b8.jpg",
+           "price": "180 EG",
+           "category":"arabic"
+
+       },
+       {
+           "id": 7,
+           "name": "Cupcake Notion",
+           "description": "Celebrate this season with our world-famous Matzo Crunch or Macaroon Assortments.",
+           "img": "./img/desserts/58f7175c3713618c9f38dad64eef8c93.jpg",
+           "price": "330 EG",
+           "category":"arabic"
+
+       },
+       {
+           "id": 8,
+           "name": "Strawberry Cupcake ",
+           "description": "Celebrate this season with our world-famous Matzo Crunch or Macaroon Assortments.",
+           "img": "./img/desserts/6072e6ec42fc6285ab34159f9edd2a80.jpg",
+           "price": "500 EG",
+           "category":"arabic"
+
+       },
+       {
+           "id": 9,
+           "name": "Birthday Cake ",
+           "description": "Celebrate this season with our world-famous Matzo Crunch or Macaroon Assortments.",
+           "img": "./img/desserts/6d0dea5cdf32913f7709df640ba83e3b.jpg",
+           "price": "280 EG",
+           "category":"arabic"
+
+       },
+       {
+           "id": 10,
+           "name": "CheesCake",
+           "description": "Celebrate this season with our world-famous Matzo Crunch or Macaroon Assortments.",
+           "img": "./img/desserts/a1fefed8b0eca58480fc250b35ffbf02.jpg",
+           "price": "55 EG",
+           "category":"arabic"
+
+       },
+       {
+        "id": 11,
+        "name": "Donates",
+        "description": "Celebrate this season with our world-famous Matzo Crunch or Macaroon Assortments.",
+        "img": "./img/desserts/aa15.jpg",
+        "price": "78 EG",
+        "category":"arabic"
+
+    },    {
+        "id": 12,
+        "name": "BAKLAVA",
+        "description": "Celebrate this season with our world-famous Matzo Crunch or Macaroon Assortments.",
+        "img": "./img/desserts/aa20.jpg",
+        "price": "250 EG",
+        "category":"arabic"
+
+    },
+       {
+           "id": 11,
+           "name": "Baba Au Rhum ",
+           "description": "We layer whipped cream and fluffy cream cheese filling to make this chilled-out pie.",
+           "img": "./img/desserts/ff1.jpg",
+           "price": "200 EG",
+           "category":"french"
+
+       }, {
+           "id": 12,
+           "name": " Buche de Noel",
+           "description": "We layer whipped cream and fluffy cream cheese filling to make this chilled-out pie.",
+           "img": "./img/desserts/ff2.jpg",
+           "price": "50 EG",
+           "category":"french"
+
+       }, {
+           "id": 13,
+           "name": "Charlotte",
+           "description": "We layer whipped cream and fluffy cream cheese filling to make this chilled-out pie.",
+           "img": "./img/desserts/ff3.jpg",
+           "price": "120 EG",
+           "category":"french"
+
+       }, {
+           "id": 14,
+           "name": "Croquembouche",
+           "description": "We layer whipped cream and fluffy cream cheese filling to make this chilled-out pie.",
+           "img": "./img/desserts/ff4.jpg",
+           "price": "290 EG",
+           "category":"french"
+
+       },{
+           "id": 15,
+           "name": "Dacquoise",
+           "description": "We layer whipped cream and fluffy cream cheese filling to make this chilled-out pie.",
+           "img": "./img/desserts/ff5.jpg",
+           "price": "70 EG",
+           "category":"french"
+
+       },{
+        "id": 16,
+        "name": "Fraisier",
+        "description": "We layer whipped cream and fluffy cream cheese filling to make this chilled-out pie.",
+        "img": "./img/desserts/ff6.jpg",
+        "price": "70 EG",
+        "category":"french"
+
+    },{
+        "id": 17,
+        "name": "Gâteau Basque",
+        "description": "We layer whipped cream and fluffy cream cheese filling to make this chilled-out pie.",
+        "img": "./img/desserts/ff7.jpg",
+        "price": "70 EG",
+        "category":"french"
+
+    },{
+        "id": 18,
+        "name": "Paris-Brest",
+        "description": "We layer whipped cream and fluffy cream cheese filling to make this chilled-out pie.",
+        "img": "./img/desserts/ff8.jpg",
+        "price": "70 EG",
+        "category":"french"
+
+    },{
+        "id": 19,
+        "name": "Petit Fours",
+        "description": "We layer whipped cream and fluffy cream cheese filling to make this chilled-out pie.",
+        "img": "./img/desserts/ff9.jpg",
+        "price": "70 EG",
+        "category":"french"
+
+    },{
+        "id": 20,
+        "name": " Quatre Quarts",
+        "description": "We layer whipped cream and fluffy cream cheese filling to make this chilled-out pie.",
+        "img": "./img/desserts/ff10.jpg",
+        "price": "70 EG",
+        "category":"french"
+
+    },{
+        "id": 21,
+        "name": "Gateau St. Honoré",
+        "description": "We layer whipped cream and fluffy cream cheese filling to make this chilled-out pie.",
+        "img": "./img/desserts/ff15.jpg",
+        "price": "100 EG",
+        "category":"french"
+
+    },{
+        "id": 22,
+        "name": "Clafoutis",
+        "description": "We layer whipped cream and fluffy cream cheese filling to make this chilled-out pie.",
+        "img": "./img/desserts/ff20.jpg",
+        "price": "271 EG",
+        "category":"french"
+
+    },
+    {
+        "id": 21,
+        "name": "Acıbadem kurabiyesi",
+        "description": "Our first-ever 'baked-fresh' sampler lets you choose between our Classic or Variety Pack Banana Pudding Multipack, AND a Brownie & Blondie Combo.",
+        "img": "./img/desserts/tt2.jpg",
+        "price": "70 EG",
+        "category":"turkey"
+
+    },{
+        "id": 22,
+        "name": "Aşure",
+        "description": "Our first-ever 'baked-fresh' sampler lets you choose between our Classic or Variety Pack Banana Pudding Multipack.",
+        "img": "./img/desserts/tt3.jpg",
+        "price": "70 EG",
+        "category":"turkey"
+
+    },{
+        "id": 23,
+        "name": "Ayva tatlısı",
+        "description": "Our first-ever 'baked-fresh' sampler lets you choose between our Classic or Variety Pack Banana Pudding Multipack.",
+        "img": "./img/desserts/tt4.jpg",
+        "price": "70 EG",
+        "category":"turkey"
+
+    },{
+        "id":24,
+        "name": "Badem ezmesi",
+        "description": "Our first-ever 'baked-fresh' sampler lets you choose between our Classic or Variety Pack Banana Pudding Multipack.",
+        "img": "./img/desserts/tt5.jpg",
+        "price": "70 EG",
+        "category":"turkey"
+
+    },{
+        "id": 25,
+        "name": "Bülbül yuvası",
+        "description": "Our first-ever 'baked-fresh' sampler lets you choose between our Classic or Variety Pack Banana Pudding Multipack.",
+        "img": "./img/desserts/tt6.jpg",
+        "price": "70 EG",
+        "category":"turkey"
+
+    },{
+        "id": 26,
+        "name": "Cezerye",
+        "description": "Our first-ever 'baked-fresh' sampler lets you choose between our Classic or Variety Pack Banana Pudding Multipack.",
+        "img": "./img/desserts/tt7.jpg",
+        "price": "70 EG",
+        "category":"turkey"
+
+    },{
+        "id": 27,
+        "name": "Dilber dudağı",
+        "description": "Our first-ever 'baked-fresh' sampler lets you choose between our Classic or Variety Pack Banana Pudding Multipack.",
+        "img": "./img/desserts/tt8.jpg",
+        "price": "70 EG",
+        "category":"turkey"
+
+    },{
+        "id": 28,
+        "name": "Demir tatlısı",
+        "description": "Our first-ever 'baked-fresh' sampler lets you choose between our Classic or Variety Pack Banana Pudding Multipack.",
+        "img": "./img/desserts/tt9.jpg",
+        "price": "70 EG",
+        "category":"turkey"
+
+    },{
+        "id": 29,
+        "name": "Ekmek kadayıfı",
+        "description": "Our first-ever 'baked-fresh' sampler lets you choose between our Classic or Variety Pack Banana Pudding Multipack.",
+        "img": "./img/desserts/tt10.jpg",
+        "price": "70 EG",
+        "category":"turkey"
+
+    },{
+        "id": 30,
+        "name": "Dondurma",
+        "description": "Our first-ever 'baked-fresh' sampler lets you choose between our Classic or Variety Pack Banana Pudding Multipack.",
+        "img": "./img/desserts/tt11.jpg",
+        "price": "70 EG",
+        "category":"turkey"
+
+    },{
+        "id": 33,
+        "name": "Kadayıf",
+        "description": "Our first-ever 'baked-fresh' sampler lets you choose between our Classic or Variety Pack Banana Pudding Multipack.",
+        "img": "./img/desserts/tt20.jpg",
+        "price": "98 EG",
+        "category":"turkey"
+
+    },{
+        "id": 35,
+        "name": "Helatiye",
+        "description": "Our first-ever 'baked-fresh' sampler lets you choose between our Classic or Variety Pack Banana Pudding Multipack.",
+        "img": "./img/desserts/tt15.jpg",
+        "price": "100 EG",
+        "category":"turkey"
+
+    }
+       
+   ]

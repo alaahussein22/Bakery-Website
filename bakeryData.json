@@ -1,0 +1,132 @@
+[
+ {
+        "id": 1,
+        "name": "Rocking Rolls",
+        "description": "It`s consist of Wheat flour",
+        "img": "./img/bakers/bakery-store-fresh-bread-just-prepared-master-50323819.jpg",
+        "price": "380 EG",
+        "category":"bakery"
+    },
+    {
+        "id": 2,
+        "name": "Cakes Walk",
+        "description": "It`s consist of Wheat flour",
+        "img": "./img/bakers/1ca83dc6d7543d869fd3191f67701202.jpg",
+        "price": "300 EG",
+        "category":"bakery"
+
+    },
+    {
+        "id": 3,
+        "name": "Chocolate Jar Cookies",
+        "description": "It`s consist of multipurpose flour",
+        "img": "./img/bakers/7ba33b0c26f97fb1c620a10760ab3acd.jpg",
+        "price": "250 EG",
+        "category":"bakery"
+    },
+    {
+        "id": 4,
+        "name": "Sugar Cake",
+        "description": "It`s consist of Wheat flour",
+        "img": "./img/bakers/9cba397173a45840342133baf54c23d9.jpg",
+        "price": "150 EG",
+        "category":"bakery"
+
+    },
+    {
+        "id": 5,
+        "name": "Sugar Shaker Bakery",
+        "description": "It`s consist of multipurpose flour",
+        "img": "./img/bakers/a7812441b8a5f70503702b17c1af3e37.jpg",
+        "price": "400 EG",
+        "category":"bakery"
+
+    },
+    {
+        "id": 6,
+        "name": "Croissant",
+        "description": "It`s consist of Gluten Free Flour",
+        "img": "./img/bakers/bakery-1073563.jpg",
+        "price": "180 EG",
+        "category":"bakery"
+
+    },
+    {
+        "id": 7,
+        "name": "Cupcake Notion",
+        "description": "It`s consist of Gluten Free Flour",
+        "img": "./img/bakers/gettyimages-602361104-612x612.jpg",
+        "price": "330 EG",
+        "category":"bakery"
+
+    },
+    {
+        "id": 8,
+        "name": "Sinappon",
+        "description": "It`s consist of Gluten Free Flour",
+        "img": "./img/bakers/istockphoto-1305993229-170667a.jpg",
+        "price": "500 EG",
+        "category":"bakery"
+
+    },
+    {
+        "id": 9,
+        "name": "Cakey Bakey",
+        "description": "It`s consist of Gluten Free Flour",
+        "img": "./img/bakers/gettyimages-92571644-612x612.jpg",
+        "price": "280 EG",
+        "category":"bakery"
+
+    },
+    {
+        "id": 10,
+        "name": "Molto",
+        "description": "It`s consist of Wheat flour",
+        "img": "./img/bakers/gettyimages-618252287-612x612.jpg",
+        "price": "55 EG",
+        "category":"bakery"
+
+    },
+    {
+        "id": 11,
+        "name": "Cookies",
+        "description": "It`s consist of Wheat flour",
+        "img": "./img/bakers/eda0289e7506120e1c2741750cfd9816.jpg",
+        "price": "200 EG",
+        "category":"bakery"
+
+    }, {
+        "id": 12,
+        "name": "Molly Cookies",
+        "description": "It`s consist of keto-friendly flour",
+        "img": "./img/bakers/e10f0cffd247726be3881dd891e2a6a6.jpg",
+        "price": "50 EG",
+        "category":"bakery"
+
+    }, {
+        "id": 13,
+        "name": "Apple Pie",
+        "description": "It`s consist of keto-friendly flour",
+        "img": "./img/bakers/55.jpg",
+        "price": "120 EG",
+        "category":"bakery"
+
+    }, {
+        "id": 14,
+        "name": "Rico Bakery",
+        "description": "It`s consist of Wheat flour",
+        "img": "./img/bakers/66jpg.jpg",
+        "price": "290 EG",
+        "category":"bakery"
+
+    },{
+        "id": 15,
+        "name": "Cake & Cream",
+        "description": "It`s consist of keto-friendly flour",
+        "img": "./img/bakers/88.jpg",
+        "price": "70 EG",
+        "category":"bakery"
+
+    }
+           
+]

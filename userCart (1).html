@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Cart-shopping</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.0.2 -->
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+
+  <!-- start navbar -->
+
+  <header id="offer">
+    <h5>SHOP PASSOVAR DESSERTS</h5>
+  </header>
+
+  <nav class="navbar navbar-expand-lg navbar-light ">
+    <div class="container ">
+        <a style="width: 25%; margin: 0 15px;" class="navbar-brand" href="#"><img src="./img/logo2.svg"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a style="color: white;" class="nav-link active one" href="index.html">HOME</a>
+                </li>
+
+                <li class="nav-item">
+                    <a style="color: white;" class="nav-link active" href="bakery.html">
+                        BAKERY</a>
+                </li>
+                <li class="nav-item">
+                    <a style="color: white;" class="nav-link active one" href="candy.html">
+                        CANDY</a>
+                </li>
+
+
+                <li class="nav-item">
+                    <a style="color: white;" class="nav-link active" href="#product">ABOUT US</a>
+                </li>
+
+
+                <li class="nav-item">
+                    <a style="color: white;" class="nav-link active" href="#contact">CONTACT </a>
+                </li>
+            </ul>
+
+            <form class="d-flex form " style="margin-left: 50px;">
+
+                <button class="btn btn-outline-primary" type="submit">
+                    <a href="LoginForm.html">LOG IN</a></button>
+              
+                <!-- <button type="button" class="btn  position-relative"> -->
+                    <a class="navText" href="userCart (1).html">
+                      <i class="fas fa-cart-plus cart" style="font-size: 30px;margin:7px 20px;padding:2px;color:#fff"></i>
+                    </a>
+                <!-- </button> -->
+               
+            </form>
+        </div>
+    </div>
+</nav>
+
+
+  <!-- end navbar -->
+
+
+  <section class="style" style="background: #bde2f3;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fffcdc, #a1dfe7);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fffcdc, #a9e7f7);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ;
+    padding: 50px;
+    height: 607px;height: 100%;">
+
+    <div class="container" id="cartContentt">
+      <div class="row">
+        <div class="col-12 text-center py-4">
+
+          <img src="./img/logo.svg" alt="">
+        </div>
+
+        <div class="col-md-6 col-12 my-2" id="cartContainer">
+
+        </div>
+
+        <div class="col-md-6 col-12 my-2">
+          <div class="card card-shadow">
+            <div class="card-body">
+              <h3 style="margin-bottom:30px;text-align: center;">Order Summary</h3>
+              <div class="row">
+                <div class="col-6">
+                  <h5 style="margin-bottom:15px">SubTotal</h5>
+                  <h5 style="margin-bottom:30px">Delivery</h5>
+                </div>
+                <div class="col-6 " style="text-align: right;">
+                  <p class="total-price" id="totallPrice">00.00</p>
+                  <p>FREE</p>
+                </div>
+                <hr>
+                <div class="col-6 ">
+                  <h5 style="margin-top:10px">Order Total</h5>
+
+                </div>
+                <div class="col-6 " style="text-align: right;">
+                  <p class="total-price" style="margin-top:10px">00.00</p>
+
+                </div>
+                <div class="col-12">
+                  <button class="btn p-3" style="width: 100%; background-color: #7AC2B6;
+                   color: #fff;font-size: 20px;margin: 15px 0;"
+                    onclick="goOrder()">Check to Continue</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card card-shadow my-2 d-none" id="orderForm">
+            <div class="card-body">
+              <div class="form">
+                <form class="row g-3 needs-validation" novalidate>
+                  <div class="col-md-6">
+                    <label for="validationCustom01" class="form-label">First name</label>
+                    <input type="text" class="form-control" id="validationCustom01" required>
+                    <div class="valid-feedback">
+                      Looks good!
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="validationCustom02" class="form-label">Last name</label>
+                    <input type="text" class="form-control" id="validationCustom02" required>
+                    <div class="valid-feedback">
+                      Looks good!
+                    </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <label for="validationCustom03" class="form-label">PhoneNumber</label>
+                    <input type="text" class="form-control" id="validationCustom03" required>
+                    <div class="invalid-feedback">
+                      Please provide a valid city.
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="validationCustom04" class="form-label">City</label>
+                    <input type="text" class="form-control" id="validationCustom04" required>
+                    <div class="invalid-feedback">
+                      Please select a valid state.
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <label for="validationCustom05" class="form-label">Address</label>
+                    <input type="text" class="form-control" id="validationCustom05" required>
+                    <div class="invalid-feedback">
+                      Please provide a valid phoneNumber.
+                    </div>
+                  </div>
+
+                  <div class="col-12 text-center">
+                    <button class="btn btn-primary" type="submit"
+                      style="width: 100%; background-color: #7AC2B6; font-size: 20px;
+                      color: #fff; outline: none; border: none; margin: 15px 0;"
+                      onclick="showMessage()">Order Now</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="container d-none" id="orderConfirmed">
+      <div class="row">
+        <div class="col-12 d-flex" style="height:500px;">
+          <div class="card card-shadow " style="margin:auto;width: 450px;padding:10px;border-radius: 5px;">
+            <div class="card-body" style="margin:5px">
+              <h4 id="card-title" style="font-weight: bold;padding: 10px;"></h4>
+              <h4 id="card-text1" style="font-weight: bold;padding: 10px;"></h4>
+              <h4 id="card-text2" style="font-weight: bold;padding: 10px;"></h4>
+              <h5 id="card-text3" style="justify-content:center;padding:10px">Your Order Will Be Arrived Within AWeek</>
+              <div style="text-align: center;">
+                <button class="btn btn-lg p-3"
+                  style="background-color: #c9666e; color: #fff;
+                  font-size: 20px;margin:20px 0;padding:5px;width:100%"
+                  onclick="location.replace('./index.html')">OK</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (function () {
+      'use strict'
+
+      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+      var forms = document.querySelectorAll('.needs-validation')
+
+      // Loop over them and prevent submission
+      Array.prototype.slice.call(forms)
+        .forEach(function (form) {
+          form.addEventListener('submit', function (event) {
+            if (!form.checkValidity()) {
+              event.preventDefault()
+              event.stopPropagation()
+            } else {
+              //console.log(";ldmslkdm");
+              event.preventDefault();
+              //localStorage.removeItem("cartContent");
+              document.getElementById("cartContentt").classList.add("d-none");
+              document.getElementById("orderConfirmed").classList.remove("d-none");
+            }
+
+            form.classList.add('was-validated')
+          }, false)
+        })
+    })()
+
+    // console.log("lkfmkfn ");
+    function showMessage() {
+      var userName = document.getElementById("validationCustom01").value + " " + document.getElementById(
+        "validationCustom02").value;
+      var address = document.getElementById("validationCustom05").value;
+      var price = document.getElementById("totallPrice").innerText;
+      //console.log(document.getElementById("totalPrice"));
+      //console.log(userName);
+      document.getElementById("card-title").innerHTML ="Name:  " + userName;
+      document.getElementById("card-text1").innerHTML ="Address:  " + address;
+      document.getElementById("card-text2").innerHTML = "Total Price:  " + price;
+
+      var order_details = [];
+      order_details.push(userName);
+      order_details.push(address);
+      order_details.push(price);
+      console.log(order_details);
+      localStorage.setItem("orderDetail", order_details);
+    }
+  </script>
+
+
+
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+  </script>
+
+ 
+</body>
+
+</html>
